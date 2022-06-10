@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+  }
+  
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .todo-list {
+    background-color: #0a5c77;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+    min-width: 700px;
+    min-height: 600px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    border-bottom: 4px solid #73c2dd;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 3.0rem;
+    font-family: "Pacifico", cursive;
+    color: #67c0dd;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-input, .form-button {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 0.8rem;
+    background-color: #67c0dd;
+  }
+  
+  .form-input {
+    outline: none;
+    background-color: #67c0dd;
+    border-color: rgba(255, 255, 255, 0.1);
+    min-width: 400px;
+    min-height: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .form-button {
+    border: 1px;
+    background-color: #67c0dd;
+    text-transform: uppercase;
+    margin-left: 0.25rem;
+    font-weight: bold;
+    min-width: 150px;
+  }
+  
+  .form-button:hover {
+    color: #f0efec;
+    font-weight: bold;
+    background: #0e84ac;
+    cursor: pointer;
+  }
+   
+  .list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  .task {
+    background-color: #4fa4c0;
+    color: #f3f3f3;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+  }
+  
+  .check-button {
+    background-color: #43f10e;
+    border-style: groove;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.575);
+    outline: none;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  .delete-button {
+    background-color: #f70909;
+    border-style: groove;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.575);
+    outline: none;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  .check-button:hover  {
+    background-color: #fdfdfd;
+    border-style: groove;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .delete-button:hover  {
+    background-color: #fdfdfd;
+    border-style: groove;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .task.done {
+    background-color: #fdfdfd;
+    color: #000000;
+    text-decoration: line-through;
+    border-radius: 5px;
+  }
+   
+  .content {
+    margin: 0;
+  }
+  
+
